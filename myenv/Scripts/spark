@@ -1,0 +1,3 @@
+#!C:\Users\Lenovo\Desktop\data-project\myenv\Scripts\python.exe
+from spark import spark_admin
+spark_admin.main()
