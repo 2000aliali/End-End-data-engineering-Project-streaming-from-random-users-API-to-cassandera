@@ -86,7 +86,7 @@ After getting your Docker containers active, initiate a new Airflow DAG. Then, n
 
 
  ####  And, to observe the live data stream, access the control center interface at localhost:9021.
- ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image7.png)
+ ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image15.png)
  ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image8.png)
  ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image9.png)
  ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image10.png)
@@ -116,9 +116,6 @@ SELECT * FROM spark_streams.created_users;
  
 
 
-
-
-This project focuses on extracting data from random users api "https://randomuser.me/api/"
  
  
  
