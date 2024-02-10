@@ -28,12 +28,12 @@ This project focuses on building an end-to-end data engineering pipeline. It cov
 ## Tool Used
 
 
-- *Data Source:* We use randomuser.me API to generate random user data for our pipeline.
-- *Apache Airflow:* Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
-- *Apache Kafka and Zookeeper:* Used for streaming data from PostgreSQL to the processing engine.
-- *Control Center and Schema Registry:* Helps in monitoring and schema management of our Kafka streams.
-- *Cassandra:* Where the processed data will be stored.
-- *Pandas:* for Cleaning,preprocessing ,Manipulating and transforming data
+- **Data Source:** We use randomuser.me API to generate random user data for our pipeline.
+- **Apache Airflow:** Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
+- **Apache Kafka and Zookeeper:** Used for streaming data from PostgreSQL to the processing engine.
+- **Control Center and Schema Registry:** Helps in monitoring and schema management of our Kafka streams.
+- **Cassandra:** Where the processed data will be stored.
+- **Pandas:** for Cleaning,preprocessing ,Manipulating and transforming data
 
 <a name="contributing"></a>
 ## Contributing
