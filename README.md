@@ -7,7 +7,7 @@
 - [Introduction](#introduction)
 - [System Architecture](#SystemArchitecture)
 - [Tool Used :](#ToolUsed )
-- [Contributing](#contributing)
+- [get started](#getstarted)
 - [License](#license)
 <!-- END OF TABLE OF CONTENTS -->
 
@@ -35,9 +35,24 @@ This project focuses on building an end-to-end data engineering pipeline. It cov
 - **Cassandra:** Where the processed data will be stored.
 - **Pandas:** for Cleaning,preprocessing ,Manipulating and transforming data
 
-<a name="contributing"></a>
-## Contributing
-...
+<a name="getstarted"></a>
+## get started
+
+## Get Started
+Follow these steps to get started with the project:
+
+1. **Clone the repository:**
+   ```sh
+   git clone <repository_url>
+
+
+
+- Clone the repository
+git clone 
+- Go to the project folder
+cd myenv
+- Build the environment with Docker Compose
+docker-compose up
 
 <a name="license"></a>
 ## License
