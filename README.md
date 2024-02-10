@@ -8,7 +8,7 @@
 - [System Architecture](#SystemArchitecture)
 - [Tool Used :](#ToolUsed )
 - [get started](#getstarted)
-- [Resultat](#license)
+- [Results](#license)
 <!-- END OF TABLE OF CONTENTS -->
 
 
@@ -78,7 +78,7 @@ ETL Service: After dockerizing the pipeline scripts, added the service to Compos
 
 
 <a name="license"></a>
-## Resultat
+## Results
 #### Streamlining Data to Apache Kafka
 
 After getting your Docker containers active, initiate a new Airflow DAG. Then, navigate to the Airflow interface at http://localhost:8084/home?status=active and execute the user_automation DAG by clicking the play icon in the actions section.
