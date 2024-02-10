@@ -70,7 +70,7 @@ And you will get this :
 - **Cassandra DB:** A NoSQL database suitable for large-scale, high-speed data spread across multiple nodes, ensuring no sole point of breakdown. Used here so as to load the processed data.
 - **PostgresDB:** A relational database employed as Apache Airflow’s metadata storage and also as a versatile data repository.
 ETL Service: After dockerizing the pipeline scripts, added the service to Compose for us to automatically update, build, and push the Docker image to DockerHub with GitHub Actions’ CI script.
-- **Airflow Webserver:**Airflow’s UI for outlining and overseeing data workflows or DAGs.
+- **Airflow Webserver:** Airflow’s UI for outlining and overseeing data workflows or DAGs.
 - **Scheduler:** Within Airflow, it kickstarts tasks and forms data pipelines, ensuring timely execution or activation by other tasks.
 - **End-of-Project Container:** This container is responsible for running our final script, `ali.py`, which exists in the `myenv` directory. Additionally, it consumes messages from our topic named `users_created` and loads our data into the `cassandra_db`.
 
