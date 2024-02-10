@@ -20,6 +20,7 @@ This project focuses on building an end-to-end data engineering pipeline. It cov
 
 <a name="SystemArchitecture"></a>
 ## SystemArchitecture
+![Screenshot](.png)
 
 
 
