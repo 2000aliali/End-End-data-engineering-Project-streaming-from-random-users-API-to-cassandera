@@ -98,7 +98,7 @@ After getting your Docker containers active, initiate a new Airflow DAG. Then, n
   ```sh
 cqlsh
  ```
-  ```sh
+  ```sql
 DESCRIBE spark_streams.created_users;
  ```
  ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%201.png)
