@@ -52,6 +52,8 @@ Follow these steps to get started with the project:
 4. **Build the environment with Docker Compose:**
  ```sh
    docker-compose up
+ ```
+
 
 
 <a name="license"></a>
