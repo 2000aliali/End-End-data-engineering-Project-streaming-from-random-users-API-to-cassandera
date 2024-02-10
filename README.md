@@ -40,19 +40,20 @@ This project focuses on building an end-to-end data engineering pipeline. It cov
 
 ## Get Started
 Follow these steps to get started with the project:
-
-1. **Clone the repository:**
+1. **activte the virtual envairement**
+    ```sh
+     .\myenv\Scripts\Activate   
+2. **Clone the repository:**
    ```sh
    git clone <repository_url>
 
 
-
-- Clone the repository
-git clone 
-- Go to the project folder
-cd myenv
-- Build the environment with Docker Compose
-docker-compose up
+3. **Go to the project folder**
+ ```sh
+   cd myenv
+4. **Build the environment with Docker Compose:**
+ ```sh
+   docker-compose up
 
 <a name="license"></a>
 ## License
