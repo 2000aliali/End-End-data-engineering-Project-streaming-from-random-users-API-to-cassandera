@@ -107,11 +107,12 @@ DESCRIBE spark_streams.created_users;
 
 
 
-- To retrieve the data transferred to Cassandra, execute:
+- To retrieve the data transferred to Cassandra, eecute:
+  
   ```sh
-SELECT * FROM spark_streams.created_users;
+  SELECT * FROM spark_streams.created_users;
  ```
- ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/iamge%204.png)
+ ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/iamge%204.pngg)
  
  
 
