@@ -49,8 +49,9 @@ Follow these steps to get started with the project:
 3. **Go to the project folder**
  ```sh
    cd myenv
+```
 4. **Build the environment with Docker Compose:**
- ```sh
+```sh
    docker-compose up
  ```
 
