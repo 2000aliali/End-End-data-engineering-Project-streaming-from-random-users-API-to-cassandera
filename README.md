@@ -20,7 +20,7 @@ This project focuses on building an end-to-end data engineering pipeline. It cov
 
 <a name="SystemArchitecture"></a>
 ## SystemArchitecture
-![Screenshot](.png)
+![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/Image1.png)
 
 
 
