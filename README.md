@@ -8,7 +8,7 @@
 - [System Architecture](#SystemArchitecture)
 - [Tool Used :](#ToolUsed )
 - [get started](#getstarted)
-- [License](#license)
+- [Resultat](#license)
 <!-- END OF TABLE OF CONTENTS -->
 
 
@@ -71,18 +71,25 @@ And you will get this :
 ETL Service: After dockerizing the pipeline scripts, added the service to Compose for us to automatically update, build, and push the Docker image to DockerHub with GitHub Actions’ CI script.
 - **Airflow Webserver:**Airflow’s UI for outlining and overseeing data workflows or DAGs.
 - **Scheduler:** Within Airflow, it kickstarts tasks and forms data pipelines, ensuring timely execution or activation by other tasks.
-- **end-of-project container :**  this the resopnsable of runing our final scripte ali.py that exist in myenv directory ,also is one that conuler message forom our topic
-  ```users-topic``` and load our data to ```cassandera_db ```
-- **End-of-Project Container:** This container is responsible for running our final script, `ali.py`, which exists in the `myenv` directory. Additionally, it consumes messages from our topic named `users-topic` and loads our data into the `cassandra_db`.
+- **End-of-Project Container:** This container is responsible for running our final script, `ali.py`, which exists in the `myenv` directory. Additionally, it consumes messages from our topic named `users_created` and loads our data into the `cassandra_db`.
 
 
 
 
 <a name="license"></a>
-## License
-...
+## Resultat
+#### Streamlining Data to Apache Kafka
+
+After getting your Docker containers active, initiate a new Airflow DAG. Then, navigate to the Airflow interface at http://localhost:8084/home?status=active and execute the user_automation DAG by clicking the play icon in the actions section.
+![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%203.png)
 
 
+ ####  And, to observe the live data stream, access the control center interface at localhost:9021.
+ ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image7.png)
+  ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image8.png)
+   ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image9.png)
+    ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image10.png)
+ 
 
 
 
