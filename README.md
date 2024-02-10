@@ -55,7 +55,8 @@ Follow these steps to get started with the project:
    docker-compose up
  ```
 And you will get this :
-![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/Image6.png)
+![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%205.png)
+
 
 
 
