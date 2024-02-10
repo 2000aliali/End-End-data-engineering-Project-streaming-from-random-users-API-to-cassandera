@@ -55,7 +55,7 @@ Follow these steps to get started with the project:
  ```sh
    docker build -t pandas-image -f Dockerfile.pandas . 
  ```
-4. **Build the environment with Docker Compose:**
+5. **Build the environment with Docker Compose:**
 ```sh
    docker-compose up
  ```
