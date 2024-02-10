@@ -45,15 +45,14 @@ Follow these steps to get started with the project:
      .\myenv\Scripts\Activate   
 2. **Clone the repository:**
    ```sh
-   git clone <repository_url>
-
-
+   git clone https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera.git
 3. **Go to the project folder**
  ```sh
    cd myenv
 4. **Build the environment with Docker Compose:**
  ```sh
    docker-compose up
+
 
 <a name="license"></a>
 ## License
