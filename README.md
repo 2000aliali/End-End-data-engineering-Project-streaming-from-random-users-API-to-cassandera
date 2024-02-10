@@ -36,9 +36,10 @@ This project focuses on building an end-to-end data engineering pipeline. It cov
 - **Pandas:** for Cleaning,preprocessing ,Manipulating and transforming data
 
 <a name="getstarted"></a>
-## get started
+
 
 ## Get Started
+This project focuses on extracting data from random users api "https://randomuser.me/api/"
 Follow these steps to get started with the project:
 1. **activte the virtual envairement**
     ```sh
@@ -86,9 +87,32 @@ After getting your Docker containers active, initiate a new Airflow DAG. Then, n
 
  ####  And, to observe the live data stream, access the control center interface at localhost:9021.
  ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image7.png)
-  ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image8.png)
-   ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image9.png)
-    ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image10.png)
+ ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image8.png)
+ ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image9.png)
+ ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image10.png)
+    
+#### Streaming Data into Cassandra
+
+ ###### by Establish then a connection to the cluster to see the data stored in Cassandra.
+ - Keyspaces and their tables should display accordingly when running:
+  ```sh
+cqlsh
+ ```
+  ```sh
+DESCRIBE spark_streams.created_users;
+ ```
+ ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%201.png)
+ 
+ ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%202.png)
+
+
+
+- To retrieve the data transferred to Cassandra, execute:
+  ```sh
+SELECT * FROM spark_streams.created_users;
+ ```
+ ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/iamge%204.png)
+ 
  
 
 
@@ -98,4 +122,4 @@ This project focuses on extracting data from random users api "https://randomuse
  
  
  
- how I built a simple end-to-end data engineering project using Docker, Apache Airflow, Kafka, Spark, Cassandra, PostgreSQL,
+
